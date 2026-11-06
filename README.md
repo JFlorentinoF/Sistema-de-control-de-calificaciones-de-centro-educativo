@@ -54,13 +54,9 @@ Este programa en C++ permite registrar y gestionar las calificaciones de un grup
 
 ![prueba3](https://github.com/JFlorentinoF/Sistema-de-control-de-calificaciones-de-centro-educativo/blob/66299edad8dba5b97fa9a890f7957a9e02ff78b5/Screenshot%202026-11-06%20164000.png)
 
-### Prueba 4: Procesamiento de otro grupo.
+### Prueba 4: Validación de calificaciones.
 
-![prueba4](https://github.com/JFlorentinoF/Sistema-de-control-de-calificaciones-de-centro-educativo/blob/66299edad8dba5b97fa9a890f7957a9e02ff78b5/Screenshot%202026-11-06%20163846.png)
-
-### Prueba 5: Validación de calificaciones.
-
-![prueba5](https://github.com/JFlorentinoF/Sistema-de-control-de-calificaciones-de-centro-educativo/blob/66299edad8dba5b97fa9a890f7957a9e02ff78b5/Screenshot%202026-11-06%20164058.png)
+![prueba4](https://github.com/JFlorentinoF/Sistema-de-control-de-calificaciones-de-centro-educativo/blob/66299edad8dba5b97fa9a890f7957a9e02ff78b5/Screenshot%202026-11-06%20164058.png)
 
 ## 6. Estructuras utilizadas y su función
 
