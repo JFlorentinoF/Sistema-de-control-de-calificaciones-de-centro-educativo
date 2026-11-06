@@ -13,12 +13,16 @@ int main()
 
    cout << "CENTRO EDUCATIVO LA NUEVA ESCUELA.\nRegistro de calificaciones." << endl;
 
+	 // Este bucle permite repetir todo el proceso para registrar otro grupo cuando el usuario lo indique.
+	
    do {
 	   Aprobado = 0;
 	   Reprobado = 0;
 	   SumaPromedios = 0;
 	   MejorPromedio = -1;
 
+	   // Este bucle verifica que la cantidad de estudiantes sea mayor que cero y vuelve a solicitarla si el valor no es válido.
+	   
    cout << "\nIntroduzca la cantidad de estudiantes pertenecientes al grupo:" << endl;
    cin >> CantidadEstudiantes;
 
@@ -26,12 +30,14 @@ int main()
 	   cout << "Error, valor invalido.\n\nIntroduzca la cantidad de estudiantes pertenecientes al grupo: " << endl;
 	   cin >> CantidadEstudiantes;
    }
+	    // Este bucle recorre la cantidad de estudiantes indicada y solicita los datos de cada uno.
 
    for (int i = 1; i <= CantidadEstudiantes; i++) {
 	   cout << "\nEstudiante #" << i << endl;
 	   cout << "Introduzca el nombre del estudiante: ";
 	   cin >> NombreEstudiante;
 
+	    // Estos bucles while sirven para validar que cada calificación se encuentre dentro del rango permitido (0 a 100) y volver a solicitarla si es incorrecta.
 
 	   cout << "Introduzca la primera calificacion del estudiante:\n ";
 	   cin >> Nota1;
@@ -69,9 +75,13 @@ int main()
 
 	   Promedio = SumaNotas / 4;
 
+	      // Se utiliza para mostrar los resultados con exactamente dos cifras decimales.
+
 	   cout << fixed << setprecision(2);
 
 	   cout << "Promedio: " << Promedio << endl;
+
+	   // Se determina si el estudiante aprobó o reprobó y se actualiza el contador correspondiente.
 
 	   if (Promedio >= 70) {
 		   cout << "Estado: APROBADO." << endl;
